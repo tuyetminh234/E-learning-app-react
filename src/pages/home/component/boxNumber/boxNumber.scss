@@ -1,0 +1,38 @@
+.boxNumber {
+  .box {
+    background-color: #f0f8ff;
+    padding: 0;
+    .boxNumber {
+      text-align: center;
+      img {
+        width: 85px;
+        height: 85px;
+      }
+      p {
+        margin: 0;
+        font-weight: 500;
+      }
+      .textNumber {
+        color: #41b294;
+        font-size: 50px;
+        span {
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  &.active {
+    .box {
+      .boxNumber {
+        margin-bottom: 15px;
+        img {
+          width: 70px;
+          height: 70px;
+        }
+        .textNumber {
+          font-size: 45px;
+        }
+      }
+    }
+  }
+}

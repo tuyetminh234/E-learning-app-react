@@ -1,0 +1,158 @@
+.header__admin {
+    justify-content: space-between;
+
+    .button__addUser {
+        outline: #1465d8;
+    }
+
+    .anticon-home {
+        cursor: pointer;
+        margin-right: 20px;
+        font-size: 30px;
+
+        svg {
+            background-color: #1677ff;
+
+        }
+    }
+
+    .ant-input-affix-wrapper {
+        width: 25%;
+        height: 35px;
+        margin-left: 20%;
+    }
+
+    .icon {
+        i {
+            font-size: 18px;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            cursor: pointer;
+            text-align: center;
+            background-color: #1677ff;
+            color: white;
+            border-radius: 20%;
+            transition: all .3s;
+
+            &:hover {
+                background-color: #4096ff;
+            }
+        }
+    }
+}
+
+.ant-table-wrapper {
+    .ant-table-thead {
+        tr {
+            height: 80px;
+            max-height: 80px;
+            min-height: 80px;
+
+            th {
+                text-align: center;
+                border: 1px solid #dee2e6;
+                font-size: 15px;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .ant-table-tbody {
+        tr {
+            width: 100%;
+            font-weight: 600;
+            font-size: 16px;
+
+            td {
+                border: 1px solid #dee2e6;
+                text-align: center;
+            }
+
+            .Stt {
+                width: 7%;
+                max-width: 7%;
+                min-width: 7%;
+            }
+
+            .taiKhoan {
+                width: 17%;
+                max-width: 17%;
+                min-width: 17%;
+            }
+
+            .maLoaiNguoiDung {
+                width: 10%;
+                max-width: 10%;
+                min-width: 10%;
+            }
+
+            .hoTen {
+                width: 15%;
+                max-width: 15%;
+                min-width: 15%;
+            }
+
+            .email {
+                width: 28%;
+                max-width: 28%;
+                min-width: 28%;
+            }
+
+            .soDt {
+                width: 10%;
+                max-width: 10%;
+                min-width: 10%;
+            }
+
+            .chucNang {
+                width: 21%;
+                max-width: 21%;
+                min-width: 21%;
+
+                .repair {
+                    transition: all .3s;
+                    margin-right: 5px;
+                    font-weight: 600;
+                    background-color: green;
+                    color: white;
+
+
+                    &:hover {
+                        background-color: rgb(3, 103, 3) !important;
+                        color: white;
+                    }
+
+
+                }
+
+                .delete {
+                    color: white;
+                    transition: all .3s;
+                    margin-right: 5px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+.user__management {
+    width: 35% !important;
+}
+
+.laptop.user__management {
+    width: 45% !important;
+}
+
+.tablet.user__management {
+    width: 50% !important;
+}
+
+.mobile.user__management {
+    width: 55% !important;
+}
+
+.iphone6plus.user__management {
+    width: 60% !important;
+}

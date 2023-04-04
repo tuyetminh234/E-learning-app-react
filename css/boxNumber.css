@@ -1,0 +1,32 @@
+.boxNumber .box {
+  background-color: #f0f8ff;
+  padding: 0;
+}
+.boxNumber .box .boxNumber {
+  text-align: center;
+}
+.boxNumber .box .boxNumber img {
+  width: 85px;
+  height: 85px;
+}
+.boxNumber .box .boxNumber p {
+  margin: 0;
+  font-weight: 500;
+}
+.boxNumber .box .boxNumber .textNumber {
+  color: #41b294;
+  font-size: 50px;
+}
+.boxNumber .box .boxNumber .textNumber span {
+  font-weight: 500;
+}
+.boxNumber.active .box .boxNumber {
+  margin-bottom: 15px;
+}
+.boxNumber.active .box .boxNumber img {
+  width: 70px;
+  height: 70px;
+}
+.boxNumber.active .box .boxNumber .textNumber {
+  font-size: 45px;
+}/*# sourceMappingURL=boxNumber.css.map */

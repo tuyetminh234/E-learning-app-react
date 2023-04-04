@@ -1,0 +1,397 @@
+.banner {
+  width: 100%;
+  padding-top: 50px;
+  .row {
+    width: 100%;
+    height: 100%;
+    .title {
+      display: flex;
+      position: relative;
+      z-index: 10;
+      justify-content: center;
+      align-items: center;
+      .cloud {
+        position: absolute;
+        object-fit: cover;
+        left: 19%;
+        top: 11%;
+        animation: cloud 7s linear infinite alternate;
+        img {
+          width: 86px;
+          height: 76px;
+        }
+      }
+      .rocket {
+        position: absolute;
+        object-fit: cover;
+        left: 10%;
+        bottom: 33%;
+        animation: rocket 3.5s ease-in infinite;
+        img {
+          width: 70px;
+          height: 70px;
+        }
+      }
+      .slogan {
+        h1 {
+          font-weight: 600;
+          font-size: 50px;
+          &:last-of-type {
+            color: rgb(65, 178, 148);
+            font-size: 65px;
+            font-weight: 700;
+            overflow: hidden;
+            animation: slogan 4.5s ease-in-out 3s infinite;
+            span {
+              color: black;
+              font-size: 50px;
+              font-weight: 600;
+            }
+          }
+        }
+        .sliderPlaneImg {
+          position: absolute;
+          object-fit: cover;
+          right: 20%;
+          top: 20%;
+          width: 20%;
+          height: 20%;
+        }
+        button {
+          font-size: 20px;
+          font-weight: 500;
+          color: white;
+        }
+      }
+    }
+    .image {
+      position: relative;
+      .banner_img {
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .cloud {
+        position: absolute;
+        object-fit: cover;
+        left: 10%;
+        top: 4%;
+        animation: cloud_right 4s linear infinite;
+        &.mid {
+          left: 14%;
+          top: 16%;
+        }
+        &.bottom {
+          left: 18%;
+          top: 27%;
+        }
+        img {
+          width: 100px;
+          height: 90px;
+        }
+      }
+      .message {
+        position: absolute;
+        object-fit: cover;
+        top: 39%;
+        right: 46%;
+
+        animation: message 1.5s linear infinite alternate;
+        img {
+          width: 110px;
+          height: 106px;
+        }
+      }
+    }
+  }
+}
+
+.banner.iPad_pro {
+  .row {
+    margin: 0;
+    margin-left: 15px;
+    .title {
+      .slogan {
+        h1 {
+          font-size: 48px;
+        }
+      }
+      .cloud {
+        top: 5%;
+      }
+      .rocket {
+        left: -11%;
+        bottom: 13%;
+      }
+    }
+    .image {
+      .message {
+        top: 38%;
+        right: 44%;
+        img {
+          width: 86px;
+          height: 86px;
+        }
+      }
+    }
+  }
+}
+
+.banner.tablet {
+  .row {
+    .title {
+      margin-top: 58px;
+      .cloud {
+        left: 12%;
+        top: -24%;
+      }
+      .rocket {
+        left: 6%;
+        bottom: -6%;
+      }
+      .slogan {
+        img {
+          right: 14%;
+          top: 50%;
+          width: 22%;
+          height: 43%;
+        }
+      }
+    }
+  }
+}
+
+.banner.mobile {
+  .row {
+    .title {
+      margin-top: 60px;
+      .cloud {
+        left: 12%;
+        top: -21%;
+      }
+      .rocket {
+        left: -3%;
+        bottom: -8%;
+      }
+      .slogan {
+        margin-left: 40px;
+        img {
+          right: 3%;
+          top: 26%;
+          width: 29%;
+          height: 39%;
+        }
+      }
+    }
+    .image {
+      .message {
+        top: 37%;
+        right: 43%;
+      }
+    }
+  }
+}
+
+.banner.iphone6_plus {
+  .row {
+    .title {
+      margin-top: 60px;
+      margin-left: 21px;
+      .cloud {
+        left: -15%;
+        top: -23%;
+        img {
+          width: 65px;
+          height: 60px;
+        }
+      }
+      .rocket {
+        left: -13%;
+        bottom: -7%;
+        img {
+          width: 60px;
+          height: 60px;
+        }
+      }
+      .slogan {
+        h1 {
+          font-weight: 600;
+          font-size: 40px;
+          &:last-of-type {
+            font-size: 55px;
+
+            span {
+              font-size: 40px;
+            }
+          }
+        }
+        img {
+          right: -1%;
+          top: 27%;
+          width: 29%;
+          height: 39%;
+        }
+        button {
+          font-size: 13px;
+        }
+      }
+    }
+    .image {
+      .message {
+        top: 40%;
+        right: 44%;
+        animation: message2 2.5s linear infinite alternate;
+        img {
+          width: 50px;
+          height: 50px;
+        }
+      }
+      .cloud {
+        left: 4%;
+        top: 2%;
+        img {
+          width: 46px;
+          height: 45px;
+        }
+        &.mid {
+          left: 10%;
+          top: 12%;
+        }
+        &.bottom {
+          left: 14%;
+          top: 25%;
+        }
+      }
+    }
+  }
+}
+
+.banner.iphone6 {
+  .row {
+    .title {
+      margin-top: 60px;
+      margin-left: 21px;
+      .cloud {
+        left: -17%;
+        top: -21%;
+        img {
+          width: 55px;
+          height: 55px;
+        }
+      }
+      .rocket {
+        left: -13%;
+        bottom: -7%;
+        img {
+          width: 46px;
+          height: 46px;
+        }
+      }
+      .slogan {
+        h1 {
+          font-weight: 600;
+          font-size: 40px;
+          &:last-of-type {
+            font-size: 55px;
+
+            span {
+              font-size: 40px;
+            }
+          }
+        }
+        img {
+          right: -1%;
+          top: 35%;
+          width: 35%;
+          height: 39%;
+        }
+        button {
+          font-size: 13px;
+        }
+      }
+    }
+    .image {
+      .message {
+        top: 39%;
+        right: 44%;
+        animation: message2 2.5s linear infinite alternate;
+        img {
+          width: 44px;
+          height: 44px;
+        }
+      }
+      .cloud {
+        left: 4%;
+        top: 2%;
+        img {
+          width: 46px;
+          height: 45px;
+        }
+        &.mid {
+          left: 10%;
+          top: 12%;
+        }
+        &.bottom {
+          left: 14%;
+          top: 25%;
+        }
+      }
+    }
+  }
+}
+
+@keyframes rocket {
+  0% {
+    transform: rotate(-43deg) translate(0px, 0px);
+  }
+  100% {
+    transform: rotate(-43deg) translate(176px, -170px);
+  }
+}
+
+@keyframes cloud {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(285px);
+  }
+}
+
+@keyframes cloud_right {
+  0% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(150px);
+    opacity: 0;
+  }
+}
+
+@keyframes message {
+  0% {
+    transform: rotate(-17deg) translateX(-16px);
+  }
+  100% {
+    transform: rotate(19deg) translate(24px, -9px);
+  }
+}
+
+@keyframes message2 {
+  0% {
+    transform: rotate(-19deg) translateX(-11px);
+  }
+  100% {
+    transform: rotate(22deg) translate(8px, -3px);
+  }
+}
+@keyframes slogan {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
